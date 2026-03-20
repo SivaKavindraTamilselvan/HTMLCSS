@@ -64,4 +64,4 @@ Transform
 Transition
 Responsive Design
 Media Queries (max-width: 1024px, 600px)
->>>>>>> 9d831d1d208126650b72db32a33624bfea914211
+
