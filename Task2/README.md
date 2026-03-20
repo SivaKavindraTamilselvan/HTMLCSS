@@ -1,4 +1,4 @@
-## Task 1
+## Task 2
 Build a card that includes an image, a title, and a description.
 
 ## Requirements
