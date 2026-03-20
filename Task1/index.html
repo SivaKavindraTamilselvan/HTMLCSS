@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .title-component {
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            font-size: small;
+            padding: 2px;
+        }
+
+        .navbar {
+            background-color: white;
+            color: black;
+            padding: 10px;
+            box-shadow: 2px 2px 2px black;
+        }
+
+        .navbar-list {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .navbar-list li {
+            cursor: pointer;
+            font-size: medium;
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .navbar-list li:hover {
+            color: green;
+            transition: 1s;
+        }
+
+        .hero-section {
+            background-image: url("https://img.freepik.com/premium-photo/tiger-roaring-black-background_548188-5095.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-section-content {
+            padding: 10%;
+            color: white;
+        }
+
+        .footer-list {
+            list-style: none;
+            display: flex;
+            justify-content: end;
+            gap: 10px;
+            font-weight: bold;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        @media (max-width:1024px) {
+            .hero-section {
+                background-image: none;
+                background-color: black;
+                height: auto;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+
+            footer {
+                position: fixed;
+                bottom: 0%;
+                background-color: black;
+                color: white;
+                width: 100%;
+            }
+        }
+
+        @media (max-width:600px) {
+            .hero-section {
+                background-image: none;
+                background-color: black;
+                height: auto;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+
+            footer {
+                position: fixed;
+                bottom: 0%;
+                background-color: black;
+                color: white;
+                width: 100%;
+            }
+
+            .footer-content{
+                flex-direction: column;
+                padding: 0%;
+                text-align: center;
+            }
+
+            .footer-list{
+                padding: 0%;
+            }
+            .navbar-list{
+                flex-direction: column;
+                align-items: center;
+                padding: 0%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="title-component">
+            <p>WildLife World</p>
+        </div>
+        <nav class="navbar">
+            <ul class="navbar-list">
+                <li>Home</li>
+                <li>Animals</li>
+                <li>Birds</li>
+                <li>Habitats</li>
+                <li>Gallery</li>
+                <li>Facts</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero-section">
+            <div class="hero-section-content">
+                <p style="font-size:x-large;font-weight:bold;color:green">Welcome</p>
+                <p>Explore various WildLife Animals & Birds</p>
+                <button
+                    style="background-color: yellow;border:none;padding:10px;border-radius:2px;color:black;font-weight:bold;cursor:pointer;">Get
+                    Started</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div>
+                <p style="font-weight: bold;">WildLife World</p>
+                <p><span style="font-weight: bold;">Contact : </span>sivakavindra@gmail.com</p>
+            </div>
+            <div>
+                <ul class="footer-list">
+                    <li>Home</li>
+                    <li>Animals</li>
+                    <li>Birds</li>
+                    <li>Habitats</li>
+                    <li>Gallery</li>
+                    <li>Facts</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
