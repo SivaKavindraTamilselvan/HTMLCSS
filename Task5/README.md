@@ -1,4 +1,4 @@
-## Task 1
+## Task 5
 Build a modal (popup window) that opens and closes without JavaScript.
 
 ## Requirements
@@ -26,6 +26,7 @@ DropDown Submenu
 
 ## Screenshots
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c945658a-a48e-4909-9103-2606ff833dbc" />
 
 
 ## Components Used
