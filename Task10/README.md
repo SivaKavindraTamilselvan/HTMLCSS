@@ -40,7 +40,7 @@ https://hilarious-parfait-c72f78.netlify.app/
 
 
 ## Screenshots
-https://github.com/SivaKavindraTamilselvan/HTMLCSS/blob/main/Task10/screenshots/Screenshot%202026-03-20%20155711.png?raw=true
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1d02b77c-9646-41cf-b38d-1e78b56bcf97" />
 
 
 
