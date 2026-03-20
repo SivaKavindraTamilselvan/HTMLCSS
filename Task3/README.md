@@ -1,4 +1,4 @@
-## Task 1
+## Task 3
 Create a grid layout that displays multiple items.
 
 ## Requirements
@@ -25,8 +25,10 @@ Responsive design (<media>)
 
 ## Screenshots
 
-[!AnimalCardPage](./images/Animal%20Card.png)
-[!HomePage](./images/Home.png.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/012e9902-935a-48ff-8813-8043aedf0924" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ac494539-80e8-412a-8422-7ef25dc5ca61" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/82230a5e-3ace-4654-924e-248c6aa0ae33" />
+
 
 ## Components Used
 

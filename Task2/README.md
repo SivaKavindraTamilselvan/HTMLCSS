@@ -1,4 +1,4 @@
-## Task 1
+## Task 2
 Build a card that includes an image, a title, and a description.
 
 ## Requirements
@@ -24,8 +24,9 @@ Responsive design (<media>)
 
 ## Screenshots
 
-[!AnimalCardPage](./images/Animal%20Card.png)
-[!HomePage](./images/Home.png.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/64691731-a27e-429b-a663-5befaa759063" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2bce1e49-677d-4603-b1e6-0928e7cd0b77" />
+
 
 ## Components Used
 
