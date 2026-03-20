@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .title-component {
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            font-size: small;
+            padding: 2px;
+        }
+
+        .navbar {
+            padding: 10px;
+        }
+
+        .navbar-list {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+
+        .navbar-list li:hover {
+            cursor: pointer;
+            color: green;
+        }
+
+        .hero-section {
+            background-image: url("https://img.freepik.com/premium-photo/tiger-roaring-black-background_548188-5095.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-section-content {
+            padding: 10%;
+        }
+
+        .hero-section-button {
+            color: black;
+            font-weight: bold;
+            padding: 10px;
+            background-color: yellow;
+            border-radius: 2px;
+            border: none;
+        }
+
+        .hero-section-button:hover {
+            color: white;
+            background-color: red;
+            cursor: pointer;
+            transition: 1s;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: black;
+            color: white;
+        }
+
+        .footer-list {
+            display: flex;
+            list-style: none;
+            gap: 10px;
+        }
+
+        .animal-card {
+            border: 2px solid black;
+            box-shadow: 0px 0px 3px;
+        }
+
+        .animal-card:hover {
+            cursor: pointer;
+            transform: translateY(-8px);
+            transition: 0.5s;
+        }
+
+        .animal-card-list {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .animal-card-title {
+            color: black;
+            font-weight: bold;
+            font-size: large;
+            text-align: center;
+        }
+
+        .animal-card-button {
+            text-align: center;
+            border: none;
+            background-color: green;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 2px;
+            margin: 10px;
+        }
+
+        .animal-card-button:hover {
+            cursor: pointer;
+            background-color: red;
+            color: black;
+            transition: 1s;
+        }
+
+        .animal-heading {
+            font-weight: bolder;
+            font-size: xx-large;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        @media (max-width:1024px) {
+            .hero-section {
+                display: flex;
+                align-items: center;
+                background-color: black;
+                background-image: none;
+                height: auto;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .animal-card-list {
+                flex-wrap: wrap;
+            }
+        }
+
+        @media (max-width:600px) {
+            .navbar-list {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 0%;
+            }
+
+            .hero-section {
+                display: flex;
+                align-items: center;
+                background-color: black;
+                background-image: none;
+                height: auto;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .animal-card-list {
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+                width: fit-content;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #animal {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            footer {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .footer-list {
+                padding: 0;
+            }
+        }
+    </style>
+</header>
+
+<body>
+    <header>
+        <div class="title-component">
+            <p>WildLife World</p>
+        </div>
+        <div class="navbar">
+            <ul class="navbar-list">
+                <li>Home</li>
+                <li>Animals</li>
+                <li>Birds</li>
+                <li>Habitats</li>
+                <li>Gallery</li>
+                <li>Facts</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="hero-section">
+            <div class="hero-section-content">
+                <p style="font-weight: bold;font-size:x-large;color:green">Welcome</p>
+                <p style="color: white;">Explore WildLife Animals & Birds</p>
+                <button class="hero-section-button">Get Started</button>
+            </div>
+        </div>
+        <div id="animal" style="padding: 10px;">
+            <div class="animal-heading">
+                <p>Animal</p>
+            </div>
+            <div class="animal-card-list">
+                <div class="animal-card">
+                    <div>
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHBXOKQ3vGbYok_-n_F1U04f50Zntvqjt36g&s" />
+                    </div>
+                    <div class="animal-card-title">
+                        <p>ELEPHANT</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Kingdom : Animalia</li>
+                            <li>Phylum : Chordata</li>
+                            <li>Class : Mammelia</li>
+                            <li>Order : Proboscidea</li>
+                            <li>Superfamily : Elephantoidea</li>
+                            <li>Family : Elephantidae</li>
+                        </ul>
+                    </div>
+                    <div style="text-align:center;">
+                        <button class="animal-card-button">Explore More</button>
+                    </div>
+                </div>
+                <div class="animal-card">
+                    <div>
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdtvH9ihE50vKkbTfpB7QxOzCLJkdLP7xv7Q&s" />
+                    </div>
+                    <div class="animal-card-title">
+                        <p>LION</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Kingdom : Animalia</li>
+                            <li>Phylum : Chordata</li>
+                            <li>Class : Mammelia</li>
+                            <li>Order : Carnivora</li>
+                            <li>Family : Felidae</li>
+                            <li>Genus : Panthera</li>
+                        </ul>
+                    </div>
+                    <div style="text-align:center;">
+                        <button class="animal-card-button">Explore More</button>
+                    </div>
+                </div>
+
+                <div class="animal-card">
+                    <div>
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStvdC4_dFmV4T-FSSGqp6uuvE4mkrcC1MffA&s" />
+                    </div>
+                    <div class="animal-card-title">
+                        <p>ZEBRA</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Kingdom : Animalia</li>
+                            <li>Phylum : Chordata</li>
+                            <li>Class : Mammelia</li>
+                            <li>Order : Perissodactyla</li>
+                            <li>Genus : Equus</li>
+                            <li>Family : Equidae</li>
+                        </ul>
+                    </div>
+                    <div style="text-align:center;">
+                        <button class="animal-card-button">Explore More</button>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <div>
+            <p>WildLife World</p>
+            <p><span style="font-weight: bold;">Contact : </span>sivakavindra@gmail.com</p>
+        </div>
+        <div>
+            <ul class="footer-list">
+                <li>Home</li>
+                <li>Animals</li>
+                <li>Birds</li>
+                <li>Habitats</li>
+                <li>Gallery</li>
+                <li>Facts</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
