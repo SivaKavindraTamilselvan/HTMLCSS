@@ -1,4 +1,4 @@
-## Task 6
+## Task 7
 Pure CSS Carousel/Slider
 
 ## Requirements
@@ -25,6 +25,8 @@ Responsive design (<media>)
 DropDown Submenu
 
 ## Screenshots
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/089a7a8e-0ea1-4328-bf4f-9e97dab484c7" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3c94aa74-906d-474a-a16f-02d9c191c502" />
 
 
 
