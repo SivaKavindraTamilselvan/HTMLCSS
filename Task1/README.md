@@ -26,9 +26,10 @@ Responsive design (<media>)
 
 
 ## Screenshots
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9eaae3e2-3e6d-4a94-8fb7-e69883b46b3e" />
 
-[!HomePage](./images/Home.png)
-[!HomePage](./images/Home-2.png)
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fc1d266c-3194-4d7a-98de-dc7ee116a5fe" />
+
 
 ## Components Used
 
